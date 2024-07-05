@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>仙台市農地賃借料情報</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .tree-view {
+            background-color: white;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .tree-view ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        .tree-view li {
+            margin: 10px 0;
+        }
+        .caret {
+            cursor: pointer;
+            user-select: none;
+        }
+        .caret::before {
+            content: "\25B6";
+            color: black;
+            display: inline-block;
+            margin-right: 6px;
+        }
+        .caret-down::before {
+            transform: rotate(90deg);
+        }
+        .nested {
+            display: none;
+        }
+        .active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="tree-view">
+        <h1>仙台市農地賃借料情報</h1>
+        <ul>
+            <li><span class="caret">メタデータ</span>
+                <ul class="nested">
+                    <li>タイトル: 仙台市農地賃借料情報</li>
+                    <li>日付: 令和６年１月</li>
+                    <li>ソース: 仙台市農業委員会</li>
+                </ul>
+            </li>
+            <li><span class="caret">田（水稲）</span>
+                <ul class="nested">
+                    <li><span class="caret">平坦地域</span>
+                        <ul class="nested">
+                            <li><span class="caret">宮城野区</span>
+                                <ul class="nested">
+                                    <li><span class="caret">農用地区域</span>
+                                        <ul class="nested">
+                                            <li>平均額: 11,600円</li>
+                                            <li>最高額: 13,400円</li>
+                                            <li>最低額: 5,000円</li>
+                                            <li>データ数: 283</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="caret">上記以外の区域</span>
+                                        <ul class="nested">
+                                            <li>平均額: 11,200円</li>
+                                            <li>最高額: 12,000円</li>
+                                            <li>最低額: 7,200円</li>
+                                            <li>データ数: 57</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><span class="caret">若林区</span>
+                                <ul class="nested">
+                                    <li><span class="caret">農用地区域</span>
+                                        <ul class="nested">
+                                            <li>平均額: 11,800円</li>
+                                            <li>最高額: 12,000円</li>
+                                            <li>最低額: 11,000円</li>
+                                            <li>データ数: 363</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="caret">上記以外の区域</span>
+                                        <ul class="nested">
+                                            <li>平均額: 11,400円</li>
+                                            <li>最高額: 12,000円</li>
+                                            <li>最低額: 10,000円</li>
+                                            <li>データ数: 27</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><span class="caret">太白区</span>
+                                <ul class="nested">
+                                    <li><span class="caret">農用地区域</span>
+                                        <ul class="nested">
+                                            <li>平均額: 9,700円</li>
+                                            <li>最高額: 10,000円</li>
+                                            <li>最低額: 9,000円</li>
+                                            <li>データ数: 109</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="caret">上記以外の区域</span>
+                                        <ul class="nested">
+                                            <li>平均額: 10,000円</li>
+                                            <li>最高額: 10,000円</li>
+                                            <li>最低額: 10,000円</li>
+                                            <li>データ数: 7</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><span class="caret">泉区</span>
+                                <ul class="nested">
+                                    <li><span class="caret">農用地区域</span>
+                                        <ul class="nested">
+                                            <li>平均額: 5,800円</li>
+                                            <li>最高額: 12,000円</li>
+                                            <li>最低額: 4,000円</li>
+                                            <li>データ数: 46</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="caret">上記以外の区域</span>
+                                        <ul class="nested">
+                                            <li>平均額: 6,000円</li>
+                                            <li>最高額: 6,000円</li>
+                                            <li>最低額: 6,000円</li>
+                                            <li>データ数: 1</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><span class="caret">中山間地域</span>
+                        <ul class="nested">
+                            <li><span class="caret">青葉区</span>
+                                <ul class="nested">
+                                    <li><span class="caret">農用地区域</span>
+                                        <ul class="nested">
+                                            <li>平均額: 6,200円</li>
+                                            <li>最高額: 9,000円</li>
+                                            <li>最低額: 5,000円</li>
+                                            <li>データ数: 138</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="caret">上記以外の区域</span>
+                                        <ul class="nested">
+                                            <li>平均額: 5,700円</li>
+                                            <li>最高額: 10,000円</li>
+                                            <li>最低額: 5,000円</li>
+                                            <li>データ数: 29</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><span class="caret">仙台市平均</span>
+                        <ul class="nested">
+                            <li><span class="caret">農用地区域</span>
+                                <ul class="nested">
+                                    <li>平均額: 11,200円</li>
+                                    <li>データ数: 939</li>
+                                </ul>
+                            </li>
+                            <li><span class="caret">上記以外の区域</span>
+                                <ul class="nested">
+                                    <li>平均額: 10,200円</li>
+                                    <li>データ数: 121</li>
+                                </ul>
+                            </li>
+                            <li><span class="caret">全域</span>
+                                <ul class="nested">
+                                    <li>平均額: 10,600円</li>
+                                    <li>データ数: 1,060</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><span class="caret">畑</span>
+                <ul class="nested">
+                    <li><span class="caret">仙台市平均</span>
+                        <ul class="nested">
+                            <li><span class="caret">全域</span>
+                                <ul class="nested">
+                                    <li>平均額: 9,500円</li>
+                                    <li>最高額: 14,800円</li>
+                                    <li>最低額: 3,000円</li>
+                                    <li>データ数: 33</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><span class="caret">注記</span>
+                <ul class="nested">
+                    <li>令和5年1月1日～令和5年12月31日までに公告された農用地利用集積計画により算出。</li>
+                    <li>平均額は加重平均により算出。</li>
+                    <li>物納、使用貸借及び農地法第３条の賃貸借は含まない。</li>
+                    <li>中山間地域は、青葉区：宮城地区、茂庭地区、折立地区 太白区：茂庭地区、坪沼地区、秋保地区 泉区：実沢地区、小角地区、西田中地区、根白石地区、福岡地区、朴沢地区とする。</li>
+                    <li>農用地区域とは、農業振興地域の整備に関する法律に定める農用地区域をいう。</li>
+                    <li>金額は、算出結果を四捨五入し100円単位としている。</li>
+                    <li>データ数は筆数である。</li>
+                    <li>賃借料水準を算定するもととなる個別のデータには、土地改良区の水利費を含むものと含まないものがある。</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        var toggler = document.getElementsByClassName("caret");
+        var i;
+
+        for (i = 0; i < toggler.length; i++) {
+            toggler[i].addEventListener("click", function() {
+                this.parentElement.querySelector(".nested").classList.toggle("active");
+                this.classList.toggle("caret-down");
+            });
+        }
+    </script>
+</body>
+</html>
