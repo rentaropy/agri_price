@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sendai-agricultural-land-rental-fees>
+  <metadata>
+    <title>仙台市農地賃借料情報</title>
+    <date>令和６年１月</date>
+    <source>仙台市農業委員会</source>
+  </metadata>
+  
+  <rice-paddies>
+    <region name="平坦地域">
+      <area name="宮城野区">
+        <classification name="農用地区域">
+          <average-amount>11600</average-amount>
+          <highest-amount>13400</highest-amount>
+          <lowest-amount>5000</lowest-amount>
+          <data-count>283</data-count>
+        </classification>
+        <classification name="上記以外の区域">
+          <average-amount>11200</average-amount>
+          <highest-amount>12000</highest-amount>
+          <lowest-amount>7200</lowest-amount>
+          <data-count>57</data-count>
+        </classification>
+      </area>
+      <area name="若林区">
+        <classification name="農用地区域">
+          <average-amount>11800</average-amount>
+          <highest-amount>12000</highest-amount>
+          <lowest-amount>11000</lowest-amount>
+          <data-count>363</data-count>
+        </classification>
+        <classification name="上記以外の区域">
+          <average-amount>11400</average-amount>
+          <highest-amount>12000</highest-amount>
+          <lowest-amount>10000</lowest-amount>
+          <data-count>27</data-count>
+        </classification>
+      </area>
+      <area name="太白区">
+        <classification name="農用地区域">
+          <average-amount>9700</average-amount>
+          <highest-amount>10000</highest-amount>
+          <lowest-amount>9000</lowest-amount>
+          <data-count>109</data-count>
+        </classification>
+        <classification name="上記以外の区域">
+          <average-amount>10000</average-amount>
+          <highest-amount>10000</highest-amount>
+          <lowest-amount>10000</lowest-amount>
+          <data-count>7</data-count>
+        </classification>
+      </area>
+      <area name="泉区">
+        <classification name="農用地区域">
+          <average-amount>5800</average-amount>
+          <highest-amount>12000</highest-amount>
+          <lowest-amount>4000</lowest-amount>
+          <data-count>46</data-count>
+        </classification>
+        <classification name="上記以外の区域">
+          <average-amount>6000</average-amount>
+          <highest-amount>6000</highest-amount>
+          <lowest-amount>6000</lowest-amount>
+          <data-count>1</data-count>
+        </classification>
+      </area>
+    </region>
+    <region name="中山間地域">
+      <area name="青葉区">
+        <classification name="農用地区域">
+          <average-amount>6200</average-amount>
+          <highest-amount>9000</highest-amount>
+          <lowest-amount>5000</lowest-amount>
+          <data-count>138</data-count>
+        </classification>
+        <classification name="上記以外の区域">
+          <average-amount>5700</average-amount>
+          <highest-amount>10000</highest-amount>
+          <lowest-amount>5000</lowest-amount>
+          <data-count>29</data-count>
+        </classification>
+      </area>
+    </region>
+    <city-average>
+      <classification name="農用地区域">
+        <average-amount>11200</average-amount>
+        <data-count>939</data-count>
+      </classification>
+      <classification name="上記以外の区域">
+        <average-amount>10200</average-amount>
+        <data-count>121</data-count>
+      </classification>
+      <classification name="全域">
+        <average-amount>10600</average-amount>
+        <data-count>1060</data-count>
+      </classification>
+    </city-average>
+  </rice-paddies>
+  
+  <fields>
+    <city-average>
+      <classification name="全域">
+        <average-amount>9500</average-amount>
+        <highest-amount>14800</highest-amount>
+        <lowest-amount>3000</lowest-amount>
+        <data-count>33</data-count>
+      </classification>
+    </city-average>
+  </fields>
+  
+  <notes>
+    <note>令和5年1月1日～令和5年12月31日までに公告された農用地利用集積計画により算出。</note>
+    <note>平均額は加重平均により算出。</note>
+    <note>物納、使用貸借及び農地法第３条の賃貸借は含まない。</note>
+    <note>中山間地域は、青葉区：宮城地区、茂庭地区、折立地区 太白区：茂庭地区、坪沼地区、秋保地区 泉区：実沢地区、小角地区、西田中地区、根白石地区、福岡地区、朴沢地区とする。</note>
+    <note>農用地区域とは、農業振興地域の整備に関する法律に定める農用地区域をいう。</note>
+    <note>金額は、算出結果を四捨五入し100円単位としている。</note>
+    <note>データ数は筆数である。</note>
+    <note>賃借料水準を算定するもととなる個別のデータには、土地改良区の水利費を含むものと含まないものがある。</note>
+  </notes>
+</sendai-agricultural-land-rental-fees>
